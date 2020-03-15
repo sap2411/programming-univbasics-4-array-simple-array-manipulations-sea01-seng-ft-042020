@@ -3,8 +3,14 @@ def using_push(array, string)
 end
 
 def using_unhift(array, string)
-  array.shift(string)
+  array.unshift(string)
 end
 
 def using_pop(array)
-  array.pop(string)
+  array.pop
+end
+
+def pop_with_args(array)
+  array.pop(2)
+end
+
