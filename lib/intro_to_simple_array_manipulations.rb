@@ -22,4 +22,14 @@ def using_concat(array, array1)
   array.concat(array1)
 end
 
-def using_insert(a)
+def using_insert(array, element)
+  array.insert(element)
+end
+
+def using_uniq(array)
+  array.uniq
+end
+
+def using_flatten(array)
+  array.using_flatten
+end
